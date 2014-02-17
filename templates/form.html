@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type">
+</head>
+<body>
+<h1>insert post</h1>
+<form method="post" action="api/insert">
+<p>
+<input type="text" name="title" />
+<input type="text" name="text" />
+<input type="text" name="url" />
+<input type="text" name="level" />
+<input type="submit" value="Add"/>
+</p>
+</form>
+<h1>search get</h1>
+<form method="get" action="api/search">
+<p><input type="text" name="title" /> <input type="submit" value="Add" /></p>
+</form>
+</form>
+<h1>connect get</h1>
+<form method="get" action="api/connect">
+<p><input type="text" name="title" /> <input type="submit" value="Add" /></p>
+</form>
+</form>
+<h1>delete get</h1>
+<form method="get" action="api/delete">
+<p><input type="text" name="title" /> <input type="submit" value="Add" /></p>
+</form>
+<h1>update post</h1>
+<form method="post" action="api/update">
+<p>
+<input type="text" name="id" />
+<input type="text" name="title" />
+<input type="text" name="text" />
+<input type="text" name="url" />
+<input type="text" name="level" />
+<input type="submit" value="Add"/>
+</p>
+<h1>sendfile post</h1>
+</form>
+<form action='api/sendfile' enctype="multipart/form-data" method="POST">
+<input type="file" name="upfile"/>
+<input type="submit"/>
+</form>
+</body>

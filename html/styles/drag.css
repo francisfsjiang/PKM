@@ -1,0 +1,21 @@
+#show {
+    width: 240px;
+    height: 135px;
+    padding: 0.4em;
+    position: relative;
+}
+
+#effect h3 {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+}
+
+table {
+    font-size: 1em;
+}
